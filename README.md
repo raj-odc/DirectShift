@@ -1,24 +1,44 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting Started
 
-Things you may want to cover:
+Before runing the application, install the following:
 
-* Ruby version
+```bash
+ruby-3.0.1
+rails 7.0.1
+mysql
+node
+```
 
-* System dependencies
+To run the development server:
 
-* Configuration
+```bash
+bin/setup
+bin/dev
+```
 
-* Database creation
+## Project RoadMap
 
-* Database initialization
+* [x] Create Authentication using devise gem
+* [x] Used JWT token for Authorization
+* [x] Integrate react with rails app only
+* [x] Added Material for UI
+* [x] User able to send invite the users
+* [x] For testing mailer used is letter opener, email will open in browser
+* [x] Invite user able to signup using the referral code
+* [x] User able to see all the referred user who joined in the system
 
-* How to run the test suite
+## Pending
+* [ ] Validations
+* [ ] Generic alerting component
+* [ ] Mailer can be used like sendgrid, or other services
 
-* Services (job queues, cache servers, search engines, etc.)
+## Seed data
+For testing some of the users added
 
-* Deployment instructions
+```
+email: test@example.com
+password: password
 
-* ...
+```

@@ -1,0 +1,9 @@
+<h1>Dear User</h1>
+
+<p>
+  Your Friend <%= @user.email %> invited to join here
+</p>
+
+<p>
+  Please <%= link_to "click here to join", "#{root_url + "signup?referral_code=#{@user.referral_code}"}" %>
+</p>
