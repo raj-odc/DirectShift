@@ -9,8 +9,18 @@ ruby-3.0.1
 rails 7.0.1
 mysql
 node
+yarn
 ```
 
+Need to update the JWT token in the secrets, do the following
+```
+ bundle exec rake secret # copy this key and update in devise_jwt_secret_key
+
+EDITOR="vi" bin/rails credentials:edit
+
+add devise_jwt_secret_key: XXgeneratedKEYxxxxxxxx
+
+```
 To run the development server:
 
 ```bash
