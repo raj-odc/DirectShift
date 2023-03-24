@@ -33,6 +33,8 @@ bin/dev
 * [ ] Validations
 * [ ] Generic alerting component
 * [ ] Mailer can be used like sendgrid, or other services
+* [ ] May be retain the referral code even if user navigate to other tabs but this business call.
+* [ ] Also pending invite can be stored in another table which can also shown to users, as I don't have restriction on invite this might not be required.
 
 ## Seed data
 For testing some of the users added
